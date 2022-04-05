@@ -1,0 +1,5 @@
+2.- Tenemos una clase Abstracta llamada Casa que tiene como atributos tipoCasa, metrosCuadrados. 
+•	Tenemos una clase Piso que hereda de la clase Casa que tiene los atributos precio, ubicación y numeroPiso. 
+•	Crear un LinkedList de Pisos y calcular el precio medio de dichos pisos, el precio más alto y el más bajo indicando los distintos atributos del precio más alto y del más bajo.
+	Para gestionar el LinkedList debemos crear una clase que gestione los métodos que se piden.
+•	Introducir cada uno de los objetos creados al principio del LinkedList.
