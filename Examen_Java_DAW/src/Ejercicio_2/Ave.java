@@ -18,7 +18,7 @@ public class Ave
     }
 
     public String toString() {
-        return String.format("Nombre: %s\t\tPeso: %d\nHa comido: %s", getNombre(), getPeso(),
+        return String.format("Nombre: %s\\t\\tPeso: %d\\nHa comido: %s", getNombre(), getPeso(),
                                     comer());
     }
 

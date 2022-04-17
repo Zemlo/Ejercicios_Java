@@ -34,7 +34,7 @@ public class SubProducto
         for (SubProducto e : subProductos) {
             precio += e.getPrecio();
         }
-        System.out.println(String.format("\nEl precio medio de los productos en venta es: %.3f€",
+        System.out.println(String.format("\\nEl precio medio de los productos en venta es: %.3f€",
                                          precio / subProductos.length));
     }
 
@@ -55,9 +55,9 @@ public class SubProducto
                 prodMin = e;
             }
         }
-        System.out.print(String.format("\nEl precio mínimo es %.3f€. Y el producto que lo tiene " +
+        System.out.print(String.format("\\nEl precio mínimo es %.3f€. Y el producto que lo tiene " +
                                                "es: ", min) + prodMin);
-        System.out.println(String.format("\nEl precio máximo es %.3f€. Y el producto que lo tiene" +
+        System.out.println(String.format("\\nEl precio máximo es %.3f€. Y el producto que lo tiene" +
                                                  " " +
                                                  "es: ", max) + prodMax);
     }
